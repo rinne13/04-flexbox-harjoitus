@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(230, 223, 218);
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header{
+    background: red;
+    padding: 25px;
+}
+nav {
+    background: orange;
+    padding: 25px;
+    display: flex;
+}
+
+nav p {
+    flex: 3;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin: 0 10px;
+    padding: 1rem;
+    background: brown;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
+}
+
+section{
+    background: rgb(245, 195, 66);
+    padding: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+article {
+    background: rgb(137, 190, 85);
+    margin: 10px 0;
+    margin-left: 0;
+    padding: 25px;
+}
+
+aside {
+    background: rgb(47, 109, 175);
+    flex: 1;
+    padding: 25px;
+}
+
+footer{
+    background: rgb(136 51 138); 
+    ;
+    padding: 25px;
+}
+
